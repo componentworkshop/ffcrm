@@ -120,7 +120,7 @@ tt {
     background: #97baff;
     color: navy; }
   #tabs a:link.active, #tabs a:visited.active {
-    background: azure;
+    background: #e5e5e5;
     color: navy;
     text-decoration: none; }
 
