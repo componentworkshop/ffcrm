@@ -19,7 +19,7 @@
   font-size: 13px;
   font-weight: bold; }
   .subtitle a:link, .subtitle a:visited {
-    color: darkslateblue;
+    color: red;
     text-decoration: none; }
   .subtitle a:hover {
     background: none; }
@@ -108,13 +108,12 @@
   padding: 4px 15px 8px 15px; }
 
 .remote {
-  border: 5px lightblue solid;
+  border: 5px #dadada solid;
   background: whitesmoke;
-  margin: 0px;
+  margin: 10px 0px;
   padding: 0px 10px 0px 10px;
   position: relative; }
   .remote .close {
-    background: lightblue;
     border-top: 1px gainsboro solid;
     border-left: 1px gainsboro solid;
     border-bottom: 1px grey solid;
