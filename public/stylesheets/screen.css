@@ -6,7 +6,9 @@ html, body {
   font-variant: normal;
   font-weight: normal;
   height: 100%;
-  line-height: normal; }
+  line-height: normal;
+  margin: 0px;
+  padding: 0px; }
 
 body, ol, ul, li, dt, tt, label, input, select, textarea {
   font-size: 12px;
@@ -199,19 +201,20 @@ tt {
   .standalone input[type="submit"] {
     font-size: 14px; }
 
-.tabbed {
-  padding: 12px 12px 12px 16px; }
 
 .main {
+  padding: 12px 12px 12px 0px; }
+
+#main-inner {
   background: white;
-  padding: 8px 15px 15px 15px;
   -moz-border-radius: 4px;
-  -webkit-border-radius: 4px; }
+  -webkit-border-radius: 4px;
+  padding: 15px; }
 
 .sidebar {
   color: #3f3f3f;
   font-size: 11px;
-  padding: 0px 12px 0px 0px;
+  padding: 12px 12px 0px 12px;
   width: 210px; }
 
 .form {
