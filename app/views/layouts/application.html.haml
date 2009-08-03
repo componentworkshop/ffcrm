@@ -16,7 +16,10 @@
     %script{:type => "text/javascript"}= yield :javascript
 
   %body
-    = render :partial => "layouts/tabbed"
+    - if tabless_layout?
+      = render :partial => "layouts/tabless"
+    - else
+      = render :partial => "layouts/tabbed"
     %script{:type => "text/javascript"}
       = get_browser_timezone_offset
       = yield :javascript_epilogue
